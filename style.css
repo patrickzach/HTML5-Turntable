@@ -1,0 +1,83 @@
+body{
+	background-image: url(img/purty_wood.png);
+	font-family: sans-serif;
+}
+
+#turntable{
+	width: 700px;
+	height: 530px;
+	background-color: #888;
+	margin: 0 auto;
+	border-radius: 20px;
+	background-image: url(img/bo_play_pattern.png);
+	box-shadow: 0 4px 9px 1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0 4px 9px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 4px 9px 1px rgba(0,0,0,0.75);
+}
+
+#turntableInner{
+	width: 700px;
+	height: 500px;
+	border-radius: 20px;
+	background-color: #000;
+	overflow: hidden;
+	position: relative;
+	background-image: url(img/classy_fabric.png);
+}
+
+#vinyl{
+	margin: 10px;
+	width: 480px;
+	height: 480px;
+	border-radius: 240px;
+	background-color: #000;
+	overflow: hidden;
+}
+
+#label{
+	width: 180px;
+	height: 180px;
+	background-color: #ddd;
+	margin: 150px;
+	border-radius: 90px;
+	overflow: hidden;
+	position: relative;
+}
+
+#labelCaption{
+	position: absolute;
+	top: 20px;
+	text-align: center;
+	width: 180px;
+}
+
+#stick{
+	width: 10px;
+	margin: 85px;
+	height: 10px;
+	background-color: #000;
+	border-radius: 5px;
+}
+
+#button{
+	right: 10px;
+	bottom: 10px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border-radius: 20px;
+	cursor: pointer;
+	background-image: url(img/outlets.png);
+}
+
+#needle{
+	position: absolute;
+	right: 210px;
+	top: 20px;
+	height: 300px;
+	width: 30px;
+	background-color: #555;
+	transform-origin: top right;
+	-webkit-transform-origin: top right;
+	-moz-transform-origin: top right;
+}
