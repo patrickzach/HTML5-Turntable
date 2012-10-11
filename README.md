@@ -1,4 +1,4 @@
 HTML5-Turntable
 ===============
 
-A Turntable createt with HTML5 and CSS3
+A Turntable created with HTML5 and CSS3
